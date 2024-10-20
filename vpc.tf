@@ -1,6 +1,6 @@
 module "vpc" {
 
-  source               = "git::https://github.com/Anjina-devops/terraform-aws-vpc-advance.git"
+  #source               = "git::https://github.com/Anjina-devops/terraform-aws-vpc-advance.git"
   project_name         = var.project_name
   cidr_block           = var.cidr_block
   common_tags          = var.common_tags
